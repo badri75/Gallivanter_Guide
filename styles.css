@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+	position: absolute;
+    background:transparent!important;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-link:hover{
+	color: #fff!important;
+}
+
+#login-btn{
+	border: 2px solid #F44336;
+	background-color: white;
+	border-radius: 20px;
+	padding: 0.2rem 1rem!important;
+	line-height: 30px;
+}
+
+/* Login */
+    .main-section{
+      margin: 0 auto;
+      margin-top:100px;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 0px;
+    }
+    .user-name{
+      margin:10px 0px;
+    }
+    .user-name h1{
+      font-size:30px;
+      color:#676363;
+    }
+    .user-name button{
+      position: absolute; 
+      top:-50px;
+      right:20px;
+      font-size:30px;
+    }
+    .form-input button{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .form-input a{
+      padding-left: 250px;
+    }
+    .link-part {
+      border-radius:0px 0px 5px 5px;
+      background-color: #ECF0F1;
+      padding:10px;
+      border-top:1px solid #c2c2c2;
+    }
+    .open-modal{
+      margin-top:100px !important;
+    }
+    #margin-btm-5px{
+      margin-bottom: 7px;
+    }
+
+/* Search Bar */
+.container1 { 
+	position: absolute;
+	z-index: 1;
+	top:300px;
+	left: 150px;
+
+	width:980px; 
+	height:70px; 
+	padding:10px;
+}
+
+#st-box { 
+	float:left; 
+	width:300px; 
+	height:50px; 
+	background-color:lightblue; 
+	border: solid black;
+	margin-left:20px; 
+	padding: 5px;
+} 
+
+#dd{
+	width: 120px;
+	float: right;
+	height: 30px;
+	margin-right: 5px;
+	border: 2px solid black;
+}
+
+#dropdownMenuButton{
+	height: 26px;
+	padding: 0px;
+}
+
+#lan{
+	padding-top: 3px;
+}
+
+/* Search Button */
+#searching{
+	position: absolute;
+	z-index: 2;
+	top:425px;
+	left: 47%;
+}
+
+#btn1{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	border: 2px solid black;
+	background-color: white;
+}
+
+#btn2{
+	padding: 5px;
+	border-left: 2px solid black;
+	background-color: lightblue;
+}
+
+/* Top Pick Destinations */
+.outer{
+	padding:15px;
+}
+
+.inner{
+	padding: 0px;
+	border: 2px solid black;
+}
+
+.category-tile{
+	position: relative;
+	margin: 0 auto 15px;
+}
+
+#place{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	text-align: right;
+	background-color: #000;
+	color: #fff;
+	opacity: .7;
+	font-size: 1.1rem;
+}
+
+.ratin-amnt{
+	color: black;
+}
+
+.ratin{
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.ratin>.fa{
+	color: grey;
+}
+
+.ratin>.checked{
+	color: orange;
+}
+
+.amnt{
+	position: absolute;
+	bottom: 13px;
+	right: 23px;
+}
+
+hr{
+	border:0;
+	clear: both;
+	display: block;
+	width: 96%;
+	background-color: black;
+	height: 1px;
+}
+
+/* Promotions */
+#prom-icons{
+	font-size: 150px;
+}
+
+#prom-text{
+	font-size: 24px;
+	padding-left: 20px;
+}
+
+/* Top Travelogues of the month */
+.carousel-caption{
+	top: 30%;
+	bottom: auto;
+}
+
+#author{
+	float: left;
+	width: 40%;
+	margin-top: 90px;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+#preview{
+	border: 2px solid black;
+	float: right;
+	width: 50%;
+	padding: 10px;
+	background-color: #E0E0E0;
+	color: black;
+	opacity: .8;
+	font-size: 1.1rem;
+}
+
+/* Free Advice */
+#msg{
+	width: 87%;
+	height: 100px;
+	padding: 10px;
+}
+
+#help-img{
+	padding-top: 20px;
+}
+
+/* Footer */
+.footer{
+	font-size: 1.2rem;
+	color: white;
+	background-color: #1a2b49;
+	padding-top: 10px;
+}
+
+#footer-links{
+	padding-left: 5px;
+	padding-right: 5px;
+	border-left: 2px solid black;
+	color: #7FA7D5;
+}
+
+#blue-link{
+	color: #7FA7D5;
+}
+
+#white-link{
+	color: white;
+}
+
+#smedia{
+	font-size: 50px;
+	color: white;
+}
